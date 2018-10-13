@@ -2,6 +2,8 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/common/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/common/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-aop-5.1.0.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-aop-5.1.0.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-aop-5.1.0.RELEASE.jar"/>
@@ -10,7 +12,7 @@
 	<classpathentry kind="lib" path="lib/spring-libs/spring-aspects-5.1.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-beans-5.1.0.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-beans-5.1.0.RELEASE-sources.jar"/>
-	<classpathentry kind="lib" path="lib/spring-libs/spring-beans-5.1.0.RELEASE.jar" sourcepath="lib/spring-libs"/>
+	<classpathentry kind="lib" path="lib/spring-libs/spring-beans-5.1.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-context-5.1.0.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-context-5.1.0.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-context-5.1.0.RELEASE.jar"/>
@@ -65,7 +67,5 @@
 	<classpathentry kind="lib" path="lib/spring-libs/spring-websocket-5.1.0.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-websocket-5.1.0.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring-libs/spring-websocket-5.1.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/common/commons-logging-1.2-javadoc.jar"/>
-	<classpathentry kind="lib" path="lib/common/commons-logging-1.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
