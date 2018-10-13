@@ -6,7 +6,7 @@ public class Chinese implements Person {
         this.axe = axe;
     }
     public void useAxe() {
-        System.out.println("");
+        System.out.println("Œ“¥ÚÀ„»•ø≥≤Ò");
         System.out.println(axe.chop());
     }
 }

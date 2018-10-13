@@ -4,8 +4,8 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="chinese" class="spr1.Chinese">
-        <property name="axe" ref="stoneAxe" />
-    </bean>
-    <bean id="stoneAxe" class="spr1.StoneAxe" />
-    <bean id="date" class="java.util.Date" />
+         <property name="axe" ref="steelAxe" />
+     </bean>
+     <bean id="stoneAxe" class="spr1.StoneAxe" />
+     <bean id="steelAxe" class="spr1.SteelAxe" />
 </beans>
