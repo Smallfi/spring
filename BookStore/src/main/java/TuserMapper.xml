@@ -1,0 +1,8 @@
+<mapper namespace="cn.jdbc.dao.TuserMapper">
+    <!--避免因为数据库与程序中变量出现不同名，会出现差误。所以使用resultMap-->
+    <resultMap id="userMap" type="Tuser">
+        <id property="id" column="id"></id>
+        <result property="userName" column="user_name"></result>
+        <result property="password" column="password"></result>
+        <result property="nickName"  column="nick_name"></result>
+    </resultMap>
