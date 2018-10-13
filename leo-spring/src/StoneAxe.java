@@ -1,5 +1,5 @@
 public class StoneAxe implements Axe {
     public String chop() {
-        return "çŸ³æ–§ç æŸ´å¥½æ…¢";
+        return "Ê¯¸«¿³²ñºÜÂı";
     }
 }

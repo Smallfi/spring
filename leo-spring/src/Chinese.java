@@ -4,7 +4,7 @@ public class Chinese implements Person {
         this.axe = axe;
     }
     public void useAxe() {
-        System.out.println("我打算去砍点柴火");
+        System.out.println("");
         System.out.println(axe.chop());
     }
 }
