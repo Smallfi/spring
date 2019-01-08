@@ -1,7 +1,7 @@
 public class hello {
 
     public String sayHello() {
-        return "1" + new Date();
+        return "100" + new Date();
     }
 
 }
